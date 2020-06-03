@@ -115,7 +115,7 @@ h2
     font-size: 2rem;
     color: greenyellow;
 }
-.footer
+footer
 {
     display: flex;
     flex-direction: row;
