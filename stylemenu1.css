@@ -51,3 +51,34 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+body
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+	font-family: Arial, Sans-Serif;
+}
+header
+{
+    display: flex;
+    flex-direction: row;
+    height: 40%;
+    background-color: green;
+}
+h1
+{
+    font-size: 4rem;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    color: greenyellow;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.menus
+{
+    display: flex;
+    flex-direction: column;
+}
