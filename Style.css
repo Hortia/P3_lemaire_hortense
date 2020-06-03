@@ -34,7 +34,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -53,11 +53,14 @@ table {
 }
 body
 {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: column;
 	font-family: Arial, Sans-Serif;
 }
-.section1
+.header
 {
     display: flex;
     flex-direction: row;
@@ -67,20 +70,34 @@ h1
 {
     font-size: 5rem;
     text-align: center;
-
+    margin-right: auto;
+    margin-left: auto;
 }
-.section2
+.menus
 {
     display: flex;
     flex-direction: column;
 }
-.section2 div
+.menus div
 {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
-.section2 figure
+.menus img
+{
+    width: 238px;
+    height: 336px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+button
 {
     width: 20%;
-    height: 20%;
+    display: flex;
+   margin-left: auto;
+   margin-right: auto;
 }
