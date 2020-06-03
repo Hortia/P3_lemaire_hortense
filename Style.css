@@ -60,7 +60,7 @@ body
     flex-direction: column;
 	font-family: Arial, Sans-Serif;
 }
-.header
+header
 {
     display: flex;
     flex-direction: row;
