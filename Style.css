@@ -147,6 +147,15 @@ footer
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+a 
+{
+    text-decoration-line: none;
+    color: greenyellow;
+}
+a:hover
+{
+    color:black;
+}
 @media all and (max-width : 600px)
 {
     .menus div
