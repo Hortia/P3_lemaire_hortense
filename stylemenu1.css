@@ -87,3 +87,35 @@ h1
 {
     max-width: 1000px;
 }
+footer
+{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    background-color: green;
+    margin-top: 3rem;
+}
+.foot1
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: left;
+    color: greenyellow;
+    margin-left: 1rem;
+    font-size: 1.1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.foot2
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: right;
+    color: greenyellow;
+    margin-right: 1rem;
+    font-size: 1.1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
