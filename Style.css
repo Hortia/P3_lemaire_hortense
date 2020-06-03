@@ -53,7 +53,7 @@ table {
 }
 body
 {
-    width: 1200px;
+    width: 1000px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -64,7 +64,8 @@ body
 {
     display: flex;
     flex-direction: row;
-    height: 20%;
+    height: 22%;
+    background-color: green;
 }
 h1
 {
@@ -87,8 +88,8 @@ h1
 }
 .menus img
 {
-    width: 238px;
-    height: 336px;
+    width: 357px;
+    height: 504px;
     padding-left: 3rem;
     padding-right: 3rem;
     padding-bottom: 3rem;
@@ -96,8 +97,29 @@ h1
 }
 button
 {
-    width: 20%;
+    width: auto;
     display: flex;
    margin-left: auto;
    margin-right: auto;
+   background-color: green;
+}
+h2
+{
+    text-align: center;
+    font-size: 2rem;
+}
+footer
+{
+    display: flex;
+    flex-direction: row;
+    height: 15%;
+    background-color: green;
+}
+.foot1
+{
+    text-align: left;
+}
+.foot2
+{
+    text-align: right;
 }
