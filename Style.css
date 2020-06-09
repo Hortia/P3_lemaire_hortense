@@ -53,15 +53,15 @@ table {
 }
 body
 {
-    display: flex;
-    flex-direction: column;
+    display: block;
     justify-content: center;
 	font-family: Arial, Sans-Serif;
 }
 header
 {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     height: 40%;
     width: 100%;
     background-color: #579c87;
@@ -69,43 +69,77 @@ header
 h1
 {
     font-size: 4rem;
-    display: flex;
-    justify-content: center;
+    display: block;
     color: greenyellow;
     margin-bottom: 1rem;
     margin-top: 1rem;
     margin-left: auto;
     margin-right: auto;
 }
-.menus
+.grille-menu
 {
-    display: flex;
-    flex-direction: column;
-    max-width: 1000px;
-    margin-right: auto;
-    margin-left: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 4rem;
 }
-.menus div
+.menu1
 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    padding-bottom: 3rem;
-    padding-top: 3rem;
+    background-color: white;
 }
-.menus img
+.menu1 img
 {
+    box-shadow: 0px 0px 3px 3px lightgrey;
     width: 357px;
     height: 504px;
+    overflow: hidden;
+    margin-left: 35%;
+    margin-top: 15%;
+}
+.menu2
+{
+    background-color: white;
+}
+.menu2 img
+{
     box-shadow: 0px 0px 3px 3px lightgrey;
-    margin-left: 3rem;
+    width: 357px;
+    height: 504px;
+    overflow: hidden;
+    margin-right: 35%;
+    margin-left: 15%;
+    margin-top: 15%;
+}
+.menu3
+{
+    background-color: white;
+}
+.menu3 img
+{
+    box-shadow: 0px 0px 3px 3px lightgrey;
+    width: 357px;
+    height: 504px;
+    overflow: hidden;
+    margin-left: 35%;
+    margin-top: 15%;
+}
+.menu4
+{
+    background-color: white;
+}
+.menu4 img
+{
+    box-shadow: 0px 0px 3px 3px lightgrey;
+    width: 357px;
+    height: 504px;
+    overflow: hidden;
+    margin-right: 35%;
+    margin-left: 15%;
+    margin-top: 15%;
 }
 .prochainement
 {
     width: auto;
+    max-width: 230px;
     min-width: 200px;
     display: flex;
    margin-left: auto;
