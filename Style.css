@@ -99,6 +99,8 @@ h1
 {
     cursor: pointer;
     transform: scale(1);
+    transition-property: transform;
+    transition-duration: 500ms;
 }
 .zoom:hover
 {
