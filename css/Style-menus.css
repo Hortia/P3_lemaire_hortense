@@ -51,12 +51,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-body
-{
-    display: block;
-    justify-content: center;
-	font-family: Arial, Sans-Serif;
-}
 .grille-menu
 {
     display: grid;
