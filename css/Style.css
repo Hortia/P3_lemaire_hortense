@@ -70,9 +70,9 @@ h1
 {
     font-size: 4rem;
     display: block;
+    font: Arial;
     color: greenyellow;
     margin-bottom: 1rem;
-    padding-top: 4rem;
     text-align: center;
 }
 .prochainement
