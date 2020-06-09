@@ -53,10 +53,9 @@ table {
 }
 body
 {
-    margin-left: auto;
-    margin-right: auto;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 	font-family: Arial, Sans-Serif;
 }
 header
@@ -70,12 +69,13 @@ header
 h1
 {
     font-size: 4rem;
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
+    display: flex;
+    justify-content: center;
     color: greenyellow;
     margin-bottom: 1rem;
     margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 .menus
 {
@@ -114,6 +114,7 @@ h1
    border-radius: 10px;
    padding: 1rem 1rem;
    cursor: pointer;
+   margin-bottom: 7rem;
 }
 h2
 {
@@ -129,7 +130,7 @@ footer
     height: auto;
     width: 100%;
     background-color: #579c87;
-    margin-top: 3rem;
+    margin-top: 6rem;
     min-width: 300px;
     position: fixed;
     bottom: 0;
@@ -141,7 +142,7 @@ footer
     width: 50%;
     text-align: left;
     color: greenyellow;
-    margin-left: 1rem;
+    margin-left: 25%;
     font-size: 1.1rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -153,7 +154,7 @@ footer
     width: 50%;
     text-align: right;
     color: greenyellow;
-    margin-right: 1rem;
+    margin-right: 25%;
     font-size: 1.1rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -183,5 +184,13 @@ a:hover
         margin-bottom: 3rem;
         margin-right: auto;
         margin-left: auto;
+    }
+    .foot1
+    {
+        margin-left: 1rem;
+    }
+    .foot2
+    {
+        margin-right: 1rem;
     }
 }
