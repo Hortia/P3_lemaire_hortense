@@ -95,6 +95,15 @@ h1
     margin-left: 35%;
     margin-top: 15%;
 }
+.zoom
+{
+    cursor: pointer;
+    transform: scale(1);
+}
+.zoom:hover
+{
+    transform: scale(1.2);
+}
 .menu2
 {
     background-color: white;
