@@ -25,9 +25,9 @@ Par Hortense Lemaire
     text-align: center;
 
 }
-#menu-note
+.note img
 {
-    margin-top: auto;
+    padding-top: 35%;
 
 }
 .note h3
