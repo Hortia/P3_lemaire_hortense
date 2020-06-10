@@ -7,6 +7,16 @@ Par Hortense Lemaire
    v2.0 | 20110126
    License: none (public domain)
 */
+@font-face {
+    font-family: 'Croissant-One';
+    src:url('Croissant-One.ttf.woff') format('woff'),
+        url('Croissant-One.ttf.svg#Croissant-One') format('svg'),
+        url('Croissant-One.ttf.eot'),
+        url('Croissant-One.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
 .grille-menu
 {
     display: grid;
@@ -23,6 +33,7 @@ Par Hortense Lemaire
     box-shadow: 0px 0px 3px 3px lightgrey;
     justify-content: center;
     text-align: center;
+    margin-bottom: 2%;
 
 }
 .note img
@@ -48,12 +59,24 @@ Par Hortense Lemaire
     background-color:#FDF5FE;
     width: 357px;
     height: 504px;
-    margin-left: 35%;
+    margin-left: 15%;
     margin-top: 15%;
+    margin-bottom: 2%;
     box-shadow: 0px 0px 3px 3px lightgrey;
     justify-content: center;
     text-align: center;
-
+}
+.chic h3
+{
+    font-family: 'Croissant-One', cursive;
+    background: linear-gradient(0,20turn,orange,violet);
+    -webkit-background-clip: text;
+    font-size: 2rem;
+    padding-top: 50%;
+}
+.chic h4
+{
+    font-size: 3rem;
 }
 .zoom
 {
