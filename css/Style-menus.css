@@ -15,11 +15,33 @@ Par Hortense Lemaire
 }
 .note
 {
-    background-color: lightpink;
+    background-color:#FADFDB;
     width: 357px;
     height: 504px;
     margin-left: 35%;
     margin-top: 15%;
+    box-shadow: 0px 0px 3px 3px lightgrey;
+    justify-content: center;
+    text-align: center;
+
+}
+#menu-note
+{
+    margin-top: auto;
+
+}
+.note h3
+{
+    font-family: Devonshire, cursive;
+    color: #3C1318;
+    font-size: 2rem;
+
+}
+.note h4
+{
+    font-family: Devonshire, cursive;
+    color: #3C1318;
+    font-size: 3rem;
 }
 .zoom
 {
