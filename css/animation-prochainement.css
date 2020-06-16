@@ -7,3 +7,107 @@ Par Hortense Lemaire
    v2.0 | 20110126
    License: none (public domain)
 */
+.dot1
+{
+    font-size: 0.8rem;
+    -webkit-animation-name: clignote;
+    -webkit-animation-duration: 800ms;
+    -webkit-animation-delay: 500ms;
+    -webkit-animation-iteration-count: infinite;
+}
+@-webkit-keyframes clignote
+{
+    0%
+    {
+        color: transparent;
+    }
+    25%
+    {
+        color:#FACB48;
+        opacity: 25%;
+    }
+    50%
+    {
+        color: #FACB48;
+        opacity: 50%;
+    }
+    75%
+    {
+        color: #FACB48;
+        opacity: 75%;
+    }
+    100%
+    {
+        color: #FACB48;
+    }
+}
+.dot2
+{
+    font-size: 0.8rem;
+    -webkit-animation-name: clignote2;
+    -webkit-animation-duration: 800ms;
+    -webkit-animation-delay: 500ms;
+    -webkit-animation-iteration-count: infinite;
+}
+@-webkit-keyframes clignote2
+{
+    0%
+    {
+        color: #FACB48;
+        opacity: 50%;
+    }
+    25%
+    {
+        color: #FACB48;
+        opacity: 75%;
+    }
+    50%
+    {
+        color: #FACB48;
+    }
+    75%
+    {
+        color: #FACB48;
+        opacity: 25%;
+    }
+    100%
+    {
+        color: transparent
+    }
+}
+.dot3
+{
+    font-size: 0.8rem;
+    -webkit-animation-name: clignote3;
+    -webkit-animation-duration: 800ms;
+    -webkit-animation-delay: 500ms;
+    -webkit-animation-iteration-count: infinite;
+}
+@-webkit-keyframes clignote3
+{
+    0%
+    {
+        color: #FACB48;
+
+    }
+    25%
+    {
+        color: #FACB48;
+        opacity: 75%; 
+    }
+    50%
+    {
+        color: transparent;
+    }
+    75%
+    {
+        color: #FACB48;
+        opacity: 25%;
+    }
+    100%
+    {
+        color: #FACB48;
+        opacity: 50%;
+    }
+}
+
