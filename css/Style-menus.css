@@ -7,15 +7,6 @@ Par Hortense Lemaire
    v2.0 | 20110126
    License: none (public domain)
 */
-@font-face {
-    font-family: 'Croissant-One';
-    src:url('Croissant-One.ttf.woff') format('woff'),
-        url('Croissant-One.ttf.svg#Croissant-One') format('svg'),
-        url('Croissant-One.ttf.eot'),
-        url('Croissant-One.ttf.eot?#iefix') format('embedded-opentype'); 
-    font-weight: normal;
-    font-style: normal;
-}
 
 .grille-menu
 {
@@ -43,16 +34,16 @@ Par Hortense Lemaire
 }
 .note h3
 {
-    font-family: Devonshire, cursive;
+    font-family: 'Devonshire', cursive;
     color: #3C1318;
-    font-size: 2rem;
+    font-size: 2.5rem;
 
 }
 .note h4
 {
-    font-family: Devonshire, cursive;
+    font-family: 'Itim', cursive;
     color: #3C1318;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 .chic
 {
@@ -69,14 +60,17 @@ Par Hortense Lemaire
 .chic h3
 {
     font-family: 'Croissant-One', cursive;
-    background: linear-gradient(0,20turn,orange,violet);
+    background: -webkit-linear-gradient(0.20turn, #DA8135, #8E56F7 60%);
     -webkit-background-clip: text;
-    font-size: 2rem;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
     padding-top: 50%;
 }
 .chic h4
 {
-    font-size: 3rem;
+    font-size: 5rem;
+    color: #DA8135;
+    font-family: 'DM serif display', serif;
 }
 .delice
 {
@@ -93,19 +87,20 @@ Par Hortense Lemaire
 }
 .delice h3
 {
-    font-family: Devonshire, cursive;
-    color: #3C1318;
-    background-image: linear-gradient(0.25turn, orange,violet);
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    background: -webkit-linear-gradient(0.20turn,#003BD7, #2589F7 50%);
     -webkit-background-clip: text;
-    font-size: 2rem;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
     padding-top: 50%;
 
 }
 .delice h4
 {
-    font-family: Devonshire, cursive;
-    color: #3C1318;
-    font-size: 3rem;
+    font-family: 'Nanum Pen', cursive;
+    color: #2589F7;
+    font-size: 5rem;
 }
 .palette
 {
@@ -121,15 +116,18 @@ Par Hortense Lemaire
 }
 .palette h3
 {
-    font-family: 'Croissant-One', cursive;
-    background: linear-gradient(0,20turn,orange,violet);
+    font-family: 'Kaushan Script', cursive;
+    background: -webkit-linear-gradient(0.20turn,#42923C,#BCF780 40%);
     -webkit-background-clip: text;
-    font-size: 2rem;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
     padding-top: 50%;
 }
 .palette h4
 {
-    font-size: 3rem;
+    font-size: 5rem;
+    color: #42923C;
+    font-family: 'Nanum Pen';
 }
 .zoom
 {
