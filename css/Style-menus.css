@@ -44,6 +44,7 @@ Par Hortense Lemaire
     font-family: 'Itim', cursive;
     color: #3C1318;
     font-size: 4rem;
+    padding-top: 2rem;
 }
 .chic
 {
@@ -59,11 +60,11 @@ Par Hortense Lemaire
 }
 .chic h3
 {
-    font-family: 'Croissant-One', cursive;
+    font-family: 'Croissant One', cursive;
     background: -webkit-linear-gradient(0.20turn, #DA8135, #8E56F7 60%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     padding-top: 50%;
 }
 .chic h4
@@ -71,6 +72,7 @@ Par Hortense Lemaire
     font-size: 5rem;
     color: #DA8135;
     font-family: 'DM serif display', serif;
+    padding-top: 2rem;
 }
 .delice
 {
@@ -101,6 +103,7 @@ Par Hortense Lemaire
     font-family: 'Nanum Pen', cursive;
     color: #2589F7;
     font-size: 5rem;
+    padding-top: 2rem;
 }
 .palette
 {
@@ -128,6 +131,7 @@ Par Hortense Lemaire
     font-size: 5rem;
     color: #42923C;
     font-family: 'Nanum Pen';
+    padding-top: 2rem;
 }
 .zoom
 {
