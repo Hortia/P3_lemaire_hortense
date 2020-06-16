@@ -7,3 +7,37 @@ Par Hortense Lemaire
    v2.0 | 20110126
    License: none (public domain)
 */
+.foot1 a:hover
+{
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-animation: 200ms linear 100ms infinite alternate wingle1;
+}
+@-webkit-keyframes wingle1
+{
+    0%
+    {
+        margin-left: -10%;
+    }
+    100%
+    {
+        margin-left: +10%;
+    }
+}
+.foot2 a:hover
+{
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-animation: 200ms linear 100ms infinite alternate wingle2;
+}
+@-webkit-keyframes wingle2
+{
+    0%
+    {
+        margin-right: -10%;
+    }
+    100%
+    {
+        margin-right: +10%;
+    }
+}
