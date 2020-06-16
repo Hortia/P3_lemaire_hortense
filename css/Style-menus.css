@@ -95,6 +95,8 @@ Par Hortense Lemaire
 {
     font-family: Devonshire, cursive;
     color: #3C1318;
+    background-image: linear-gradient(0.25turn, orange,violet);
+    -webkit-background-clip: text;
     font-size: 2rem;
     padding-top: 50%;
 
