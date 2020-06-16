@@ -119,6 +119,7 @@ footer
     font-size: 1.1rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    align-items: flex-start;
 }
 .foot2
 {
@@ -131,6 +132,7 @@ footer
     font-size: 1.1rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    align-items: flex-end;
 }
 a 
 {
