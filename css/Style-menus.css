@@ -78,6 +78,56 @@ Par Hortense Lemaire
 {
     font-size: 3rem;
 }
+.delice
+{
+    background-color:#F9F9F9;
+    width: 357px;
+    height: 504px;
+    margin-left: 35%;
+    margin-top: 15%;
+    box-shadow: 0px 0px 3px 3px lightgrey;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2%;
+
+}
+.delice h3
+{
+    font-family: Devonshire, cursive;
+    color: #3C1318;
+    font-size: 2rem;
+
+}
+.delice h4
+{
+    font-family: Devonshire, cursive;
+    color: #3C1318;
+    font-size: 3rem;
+}
+.palette
+{
+    background-color:#FCFFFD;
+    width: 357px;
+    height: 504px;
+    margin-left: 15%;
+    margin-top: 15%;
+    margin-bottom: 2%;
+    box-shadow: 0px 0px 3px 3px lightgrey;
+    justify-content: center;
+    text-align: center;
+}
+.palette h3
+{
+    font-family: 'Croissant-One', cursive;
+    background: linear-gradient(0,20turn,orange,violet);
+    -webkit-background-clip: text;
+    font-size: 2rem;
+    padding-top: 50%;
+}
+.palette h4
+{
+    font-size: 3rem;
+}
 .zoom
 {
     cursor: pointer;
