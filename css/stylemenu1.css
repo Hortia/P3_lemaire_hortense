@@ -17,13 +17,15 @@ Par Hortense Lemaire
     flex-direction: column;
     font-family: 'Kalam', Sans-Serif;
     font-weight: lighter;
-    padding-bottom: 10%;
+    padding-bottom: 15%;
 }
 .note
 {
     margin-top: 5%;
     text-align: center;
     justify-content: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 .note h2
 {
@@ -36,6 +38,8 @@ Par Hortense Lemaire
     margin-top: 5%;
     text-align: center;
     justify-content: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 .prelude h3
 {
@@ -53,6 +57,8 @@ Par Hortense Lemaire
     margin-top: 5%;
     text-align: center;
     justify-content: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 .point-orgue h3
 {
@@ -81,4 +87,10 @@ Par Hortense Lemaire
     display: flex;
     justify-content: space-between;
     padding-bottom: 1rem;
+}
+.menus h2
+{
+    font-family: 'Devonshire';
+    font-size: 3rem;
+    color: #3C1218;
 }
