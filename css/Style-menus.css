@@ -27,6 +27,18 @@ Par Hortense Lemaire
     margin-bottom: 2%;
 
 }
+.zoom
+{
+    cursor: pointer;
+    overflow: hidden;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 400ms;
+}
+.zoom:hover
+{
+    transform: scale(1.15);
+}
 .note img
 {
     padding-top: 35%;
