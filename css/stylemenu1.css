@@ -71,6 +71,17 @@ Par Hortense Lemaire
     justify-content: space-between;
     padding-bottom: 1rem;
 }
+.titre
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.titre img
+{
+    width: 30%;
+}
 .mouvement
 {
     margin-top: 5%;
@@ -81,6 +92,8 @@ Par Hortense Lemaire
 {
     font-size: 2rem;
     margin-bottom: 3rem;
+    margin-right: 10%;
+    padding-left: 10%;
 }
 .mouvement li
 {
