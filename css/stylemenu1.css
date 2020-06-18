@@ -7,6 +7,11 @@ Par Hortense Lemaire
    v2.0 | 20110126
    License: none (public domain)
 */
+h3:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
 .menus
 {
     max-width: 1000px;
