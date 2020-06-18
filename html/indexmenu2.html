@@ -3,29 +3,68 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="widht=device-width, user-scalable=no"/><!-- trouver attribut content : ici gestion de l'adaptation à l'écran , le content permet une adaptation constante à la largeur de l'écran du device utiliser; le user-scalable=no est pour empecher le zoom--> 
-    <link rel="stylesheet" href="stylemenu1.css" /><!--chemin vers feuille CSS-->
+    <link rel="stylesheet" href="./../css/stylemenu2.css" />
+    <link rel="stylesheet" href="./../css/style.css" />
+    <link rel="stylesheet" href="./../css/animation-footer.css" /><!--chemin vers feuille CSS-->
     <!--[if lte IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js%22%3E</script>
     <![endif]-->
     <script src="https://kit.fontawesome.com/dd3e5a0d8d.js" crossorigin="anonymous"></script>
-    <title>CV de Hortense Lemaire</title>
+    <title>Menu note enchantée</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>ohmyfood</h1>
+        <h1><a href="./index.html" class="logo">ohmyfood</a>
+        </h1>
     </header>
     <section class="menus">
-        <figure>
-            <img src="menu-2.png" alt="menu2B" title="Menu la note enchantée">
-        </figure>
+        <div class="chic">
+            <h2>Le chic à la française</h2>   
+        </div>
+        <div class="appetit">
+            <div class="titre">
+                <img src="./../images/ligne.png">
+                <h3>Pour se mettre en appétit</h3>
+                <img src="./../images/ligne.png">
+            </div>
+            <ul class="plat"></ul>
+                <li><span>Tartare de poulpe acidulés aux zestes d'orange</span><span>79€</span></li>
+                <li><span>Velouté de légume d'antan</span><span>57€</span></li>
+                <li><span>Soupe à l'oignon revisitée</span><span>57€</span> </li>
+            </ul>
+        </div>
+        <div class="papilles">
+            <div class="titre">
+                <img src="./../images/ligne.png">
+                <h3>Plaisir des papilles</h3>
+                <img src="./../images/ligne.png">
+            </div>
+            <ul class="plat">
+                <li><span>Coquille Saint-Jacques accompagnée d'une purée de panais</span><span>95€</span></li>
+                <li><span>Magret de canard et parmentier de pomme de terres</span><span>88€</span></li>
+                <li><span>Pigeonnau  d'Ille et Vilaine sur son lit de gnocchis aux légumes</span><span>175€</span></li>
+            </ul>
+        </div>
+        <div class="gourmandises">
+            <div class="titre">
+                <img src="./../images/ligne.png">
+                <h3>Gourmandises sucrées</h3>
+                <img src="./../images/ligne.png">
+            </div>
+            <ul class="plat">
+                <li><span>Pétales de violettes glacés et purée de noisettes</span></li>
+                <li><span>Fondant au chocolat revisité</span></li>
+                <li><span>Millefeuille croustillant</span></li>
+            </ul>
+        </div>
     </section>
     <footer>
         <div class="foot1">
-            <p>Mentions légales</p>
+        <a href="./indexmentions.html">Mentions légales</a>
         </div>
         <div class="foot2">
-            <p>Contactez-nous</p>
+            <a href ="mailto:contacteznous@ohmyfood.fr">Contactez-nous</a>
         </div>
     </footer>
 </body>

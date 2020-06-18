@@ -1,0 +1,114 @@
+/* 
+style.css
+---------
+Par Hortense Lemaire
+*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+h3:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.menus
+{
+    max-width: 1000px;
+    background-color: #FADFDB;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Kalam', Sans-Serif;
+    font-weight: lighter;
+    padding-bottom: 15%;
+}
+.note
+{
+    margin-top: 5%;
+    text-align: center;
+    justify-content: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.note h2
+{
+    font-family: 'Devonshire';
+    font-size: 3rem;
+    color: #3C1218;
+}
+.prelude
+{
+    margin-top: 5%;
+    text-align: center;
+    justify-content: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.prelude h3
+{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+.prelude li
+{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+.point-orgue
+{
+    margin-top: 5%;
+    text-align: center;
+    justify-content: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.point-orgue h3
+{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+.point-orgue li
+{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+.titre
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.titre img
+{
+    width: 30%;
+}
+.mouvement
+{
+    margin-top: 5%;
+    text-align: center;
+    justify-content: center;
+}
+.mouvement h3
+{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    margin-right: 10%;
+    padding-left: 10%;
+}
+.mouvement li
+{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+.menus h2
+{
+    font-family: 'Devonshire';
+    font-size: 3rem;
+    color: #3C1218;
+}
