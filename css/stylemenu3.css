@@ -1,0 +1,84 @@
+/* 
+style.css
+---------
+Par Hortense Lemaire
+*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+h3:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.menus
+{
+    max-width: 1000px;
+    background-color: #EDEFEF;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Kalam', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    padding-bottom: 15%;
+}
+.commencer
+{
+    margin-top: 5%;
+    text-align: center;
+    justify-content: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.menus h3
+{
+    margin-top: 5%;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+.plat li
+{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.continuer
+{
+    margin-top: 5%;
+    text-align: center;
+    justify-content: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.titre
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.titre img
+{
+    width: 30%;
+}
+.terminer
+{
+    margin-top: 5%;
+    text-align: center;
+    justify-content: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.menus h2
+{
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    background: -webkit-linear-gradient(0.20turn, #0431df, #0887fb 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}

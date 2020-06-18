@@ -1,31 +1,70 @@
 <!DOCTYPE html>
-<html langx="fr">
+<html lang="fr">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="widht=device-width, user-scalable=no"/><!-- trouver attribut content : ici gestion de l'adaptation à l'écran , le content permet une adaptation constante à la largeur de l'écran du device utiliser; le user-scalable=no est pour empecher le zoom--> 
-    <link rel="stylesheet" href="stylemenu1.css" /><!--chemin vers feuille CSS-->
+    <link rel="stylesheet" href="./../css/stylemenu3.css" />
+    <link rel="stylesheet" href="./../css/style.css" />
+    <link rel="stylesheet" href="./../css/animation-footer.css" /><!--chemin vers feuille CSS-->
     <!--[if lte IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js%22%3E</script>
     <![endif]-->
     <script src="https://kit.fontawesome.com/dd3e5a0d8d.js" crossorigin="anonymous"></script>
-    <title>CV de Hortense Lemaire</title>
+    <title>Menu Le chic à la française</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>ohmyfood</h1>
+        <h1><a href="./index.html" class="logo">ohmyfood</a>
+        </h1>
     </header>
     <section class="menus">
-        <figure>
-            <img src="menu-3.png" alt="menu3B" title="Menu la note enchantée">
-        </figure>
+        <div class="chic">
+            <h2>Le délice des papilles</h2>   
+        </div>
+        <div class="commencer">
+            <div class="titre">
+                <img src="./../images/lignemenu3foncé.png">
+                <h3>Pour bien commencer</h3>
+                <img src="./../images/lignemenu3foncéright.png">
+            </div>
+            <ul class="plat">
+                <li><span>Tartare de thon assaisonné au yuzu</span><span>55€</span></li>
+                <li><span>Bouchée de homard croustillant et sa farandole de petits légumes</span><span>89€</span></li>
+                <li><span>Velouté de cèpes aux truffes</span><span>56€</span> </li>
+            </ul>
+        </div>
+        <div class="continuer">
+            <div class="titre">
+                <img src="./../images/lignemenu3moyen.png">
+                <h3>Pour bien continuer</h3>
+                <img src="./../images/lignemenu3moyenright.png">
+            </div>
+            <ul class="plat">
+                <li><span>Poulet rôti aux herbes de provence et sa crème de truffe</span><span>110€</span></li>
+                <li><span>Langouste rôtie et ses légumes de saison</span><span>225€</span></li>
+                <li><span>Côte de boeuf angus et sa purée de panais</span><span>115€</span></li>
+            </ul>
+        </div>
+        <div class="terminer">
+            <div class="titre">
+                <img src="./../images/lignemenu3claire.png">
+                <h3>Pour bien terminer</h3>
+                <img src="./../images/lignemenu3claireright.png">
+            </div>
+            <ul class="plat">
+                <li><span>Farandole de desserts du chef</span><span>55€</span></li>
+                <li><span>Crème brulée revisitée</span><span>60€</span></li>
+                <li><span>Tiramisu à la noisette</span><span>55€</span></li>
+            </ul>
+        </div>
     </section>
     <footer>
         <div class="foot1">
-            <p>Mentions légales</p>
+        <a href="./indexmentions.html">Mentions légales</a>
         </div>
         <div class="foot2">
-            <p>Contactez-nous</p>
+            <a href ="mailto:contacteznous@ohmyfood.fr">Contactez-nous</a>
         </div>
     </footer>
 </body>
