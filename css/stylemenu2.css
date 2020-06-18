@@ -15,66 +15,46 @@ h3:hover
 .menus
 {
     max-width: 1000px;
-    background-color: #FADFDB;
+    background-color: #FDF5FE;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     flex-direction: column;
-    font-family: 'Kalam', Sans-Serif;
+    font-family: 'Crimson Text', cursive;
     font-weight: lighter;
     padding-bottom: 15%;
 }
-.note
+.appetit
 {
     margin-top: 5%;
     text-align: center;
     justify-content: center;
     margin-left: 3rem;
     margin-right: 3rem;
+    color: #C67530;
 }
-.note h2
-{
-    font-family: 'Devonshire';
-    font-size: 3rem;
-    color: #3C1218;
-}
-.prelude
+.menus h3
 {
     margin-top: 5%;
-    text-align: center;
-    justify-content: center;
-    margin-left: 3rem;
-    margin-right: 3rem;
-}
-.prelude h3
-{
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 3rem;
+    font-family: 'Croissant One', cursive;
 }
-.prelude li
+.plat li
 {
     display: flex;
     justify-content: space-between;
     padding-bottom: 1rem;
+    font-size: 1.5rem;
 }
-.point-orgue
+.papilles
 {
     margin-top: 5%;
     text-align: center;
     justify-content: center;
     margin-left: 3rem;
     margin-right: 3rem;
-}
-.point-orgue h3
-{
-    font-size: 2rem;
-    margin-bottom: 3rem;
-}
-.point-orgue li
-{
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 1rem;
+    color: #A56799;
 }
 .titre
 {
@@ -87,28 +67,22 @@ h3:hover
 {
     width: 30%;
 }
-.mouvement
+.gourmandises
 {
     margin-top: 5%;
     text-align: center;
     justify-content: center;
-}
-.mouvement h3
-{
-    font-size: 2rem;
-    margin-bottom: 3rem;
-    margin-right: 10%;
-    padding-left: 10%;
-}
-.mouvement li
-{
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 1rem;
+    color: #6E4CCC;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 .menus h2
 {
-    font-family: 'Devonshire';
+    font-family: 'Croissant One', cursive;
     font-size: 3rem;
-    color: #3C1218;
+    background: -webkit-linear-gradient(0.20turn, #DA8135, #8E56F7 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 10%;
+    margin-bottom: 5%;
 }
