@@ -17,7 +17,8 @@ Par Hortense Lemaire
     flex-direction: column;
     font-family: 'Kalam', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: lighter;
-    padding-bottom: 15%;
+    padding-bottom: 5%;
+    margin-bottom: 15%;
 }
 .commencer
 {
