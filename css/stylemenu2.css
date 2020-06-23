@@ -7,11 +7,6 @@ Par Hortense Lemaire
    v2.0 | 20110126
    License: none (public domain)
 */
-h3:hover
-{
-    text-decoration: underline;
-    cursor: pointer;
-}
 .menus
 {
     max-width: 1000px;
@@ -39,6 +34,12 @@ h3:hover
     font-size: 1.5rem;
     margin-bottom: 3rem;
     font-family: 'Croissant One', cursive;
+    position: relative;
+    display: inline-block;
+}
+.appetit h3::after
+{
+    background:  #C67530;
 }
 .plat li
 {
@@ -55,6 +56,10 @@ h3:hover
     margin-left: 3rem;
     margin-right: 3rem;
     color: #A56799;
+}
+.papilles h3::after
+{
+    background:  #A56799;
 }
 .titre
 {
@@ -75,6 +80,10 @@ h3:hover
     color: #6E4CCC;
     margin-left: 3rem;
     margin-right: 3rem;
+}
+.gourmandises h3::after
+{
+    background: #6E4CCC;
 }
 .menus h2
 {

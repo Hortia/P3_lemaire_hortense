@@ -7,11 +7,7 @@ Par Hortense Lemaire
    v2.0 | 20110126
    License: none (public domain)
 */
-h3:hover
-{
-    text-decoration: underline;
-    cursor: pointer;
-}
+
 .menus
 {
     max-width: 1000px;
@@ -48,9 +44,31 @@ h3:hover
 }
 .prelude h3
 {
+    
     font-size: 2rem;
     margin-bottom: 3rem;
+    color: black;
+    position: relative;
+    display: inline-block;
 }
+h3:after
+{
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    position: absolute;
+    background: black;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+h3:hover:after
+{
+    width: 100%;
+    left: 0;
+}
+
 .prelude li
 {
     display: flex;
@@ -69,6 +87,9 @@ h3:hover
 {
     font-size: 2rem;
     margin-bottom: 3rem;
+    color: black;
+    position: relative;
+    display: inline-block;
 }
 .point-orgue li
 {
@@ -97,8 +118,9 @@ h3:hover
 {
     font-size: 2rem;
     margin-bottom: 3rem;
-    margin-right: 10%;
-    padding-left: 10%;
+    color: black;
+    position: relative;
+    display: inline-block;
 }
 .mouvement li
 {
