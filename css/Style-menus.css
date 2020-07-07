@@ -157,6 +157,9 @@ Par Hortense Lemaire
 {
     transform: scale(1.2);
 }
+.zoom h3{
+    line-height: 2em;
+}
 .menu2
 {
     background-color: white;
@@ -210,6 +213,14 @@ Par Hortense Lemaire
         width: auto;
         margin-left: 1rem;
         margin-right: 1rem;
+    }
+    h3
+    {
+        font-size: 1.5rem;
+    }
+    h4
+    {
+        font-size: 3rem;
     }
     .chic
     {
