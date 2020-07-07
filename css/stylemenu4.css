@@ -80,3 +80,13 @@ Par Hortense Lemaire
     margin-top: 10%;
     padding-bottom: 5%;
 }
+@media all and (max-widht : 600px)
+{
+    .menus
+    {
+        width: auto;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin: 5rem;
+    }
+}
