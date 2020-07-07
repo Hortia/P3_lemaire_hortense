@@ -204,6 +204,28 @@ Par Hortense Lemaire
     {
         display: grid;
         grid-template-columns: auto;
+    }
+    .note
+    {
+        width: auto;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .chic
+    {
+        width: auto;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .delice
+    {
+        width: auto;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .palette
+    {
+        width: auto;
         margin-left: 1rem;
         margin-right: 1rem;
     }
