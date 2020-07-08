@@ -96,3 +96,15 @@ Par Hortense Lemaire
     margin-top: 10%;
     margin-bottom: 5%;
 }
+@media all and (max-width:600px)
+{
+    .titre img
+    {
+        display: none;
+    }
+    .titre
+    {
+        align-items: center;
+        justify-content: center;
+    }
+}

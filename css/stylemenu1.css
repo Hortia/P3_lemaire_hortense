@@ -141,6 +141,7 @@ h3:hover:after
 {
     display: flex;
     flex-direction: row;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10%;
@@ -148,4 +149,16 @@ h3:hover:after
 .noteen
 {
     width: 20%;
+}
+@media all and (max-width:600px)
+{
+    .titre img
+    {
+        display: none;
+    }
+    .titre
+    {
+        align-items: center;
+        justify-content: center;
+    }
 }
