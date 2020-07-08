@@ -89,4 +89,13 @@ Par Hortense Lemaire
         margin-right: 2%;
         margin: 5rem;
     }
+    .titre img
+    {
+        display: none;
+    }
+    .titre
+    {
+        align-items: center;
+        justify-content: center;
+    }
 }
